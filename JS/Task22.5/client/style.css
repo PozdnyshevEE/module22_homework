@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: LemonChiffon;
 }
 
 .container {
@@ -17,6 +17,8 @@ body, .container {
     padding: 24px 12px; 
     overflow-y: auto;
     flex-direction: column;
+    background-color: #fff;
+    border: solid 1px #000;
 }
 
 .chat-box__message--send, .chat-box__message--input {
@@ -29,7 +31,7 @@ body, .container {
 }
 
 .chat-box__message-title {
-    color: darkgray;
+    color: #000;
 }
 
 .chat-box__message--send {
